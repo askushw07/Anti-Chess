@@ -1,0 +1,21 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  /* flex-direction: column; */
+}
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.buttonContainer > button{
+  background-color: rgb(239, 230, 218);
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+
+.buttonContainer >button:hover{
+  background-color:bisque;
+}
