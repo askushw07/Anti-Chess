@@ -19,3 +19,25 @@
 .buttonContainer >button:hover{
   background-color:bisque;
 }
+
+.winPredictor{
+  width: 16rem;
+  height: 1.5rem;
+  border: 1px solid gray;
+  display: flex;
+}
+
+.whitePredictor{
+  height: 1.5rem;
+  border: none;
+  background-color: beige;
+}
+.blackPredictor{
+  height: 1.5rem;
+  border: none;
+  background-color: darkgray;
+}
+
+.predictor{
+  display: flex;
+}
